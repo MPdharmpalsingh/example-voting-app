@@ -1,7 +1,7 @@
 #!/bin/bash
 set -x
 
-REPO_URL="https://9iZYIaTSPBvl5E7cV5o4Do7a3MdHiZRVnYq44s4ni3OrYcfkOkQXJQQJ99BFACAAAAA5Dj5DAAASAZDO2zoq@dev.azure.com/DevopsAzure0/Voting--App/_git/Voting--App"
+REPO_URL="https://<PAK>@dev.azure.com/DevopsAzure0/Voting--App/_git/Voting--App"
 
 git clone "$REPO_URL" /tmp/temp_repo
 
